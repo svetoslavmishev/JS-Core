@@ -1,0 +1,9 @@
+{
+  "name": "7.-words-uppercase",
+  "version": "0.0.0",
+  "description": "7. Words Uppercase",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}

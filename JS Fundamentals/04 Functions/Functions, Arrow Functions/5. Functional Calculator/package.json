@@ -1,0 +1,9 @@
+{
+  "name": "5.-functional-calculator",
+  "version": "0.0.0",
+  "description": "5. Functional Calculator",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}

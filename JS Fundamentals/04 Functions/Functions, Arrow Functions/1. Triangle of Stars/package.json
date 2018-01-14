@@ -1,0 +1,9 @@
+{
+  "name": "1.-triangle-of-stars",
+  "version": "0.0.0",
+  "description": "1. Triangle of Stars",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}
