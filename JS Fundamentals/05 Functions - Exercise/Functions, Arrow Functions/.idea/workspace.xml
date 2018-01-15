@@ -13,7 +13,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="8. Trip Length.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/8. Trip Length.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,8 +77,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,6 +88,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -102,22 +113,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.4. Cooking by Numbers.js">
+  <component name="RunManager" selected="Node.js.8. Trip Length.js">
     <configuration name="1. Inside Volume.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="1. Inside Volume.js" working-dir="$PROJECT_DIR$" />
     <configuration name="2. Road Radar.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="2. Road Radar.js" working-dir="$PROJECT_DIR$" />
     <configuration name="3. Template format.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="3. Template format.js" working-dir="$PROJECT_DIR$" />
     <configuration name="4. Cooking by Numbers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="4. Cooking by Numbers.js" working-dir="$PROJECT_DIR$" />
-    <list size="4">
+    <configuration name="8. Trip Length.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="8. Trip Length.js" working-dir="$PROJECT_DIR$" />
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.1. Inside Volume.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.2. Road Radar.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.3. Template format.js" />
       <item index="3" class="java.lang.String" itemvalue="Node.js.4. Cooking by Numbers.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.8. Trip Length.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.4. Cooking by Numbers.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.3. Template format.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.2. Road Radar.js" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.8. Trip Length.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.4. Cooking by Numbers.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.3. Template format.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.2. Road Radar.js" />
       </list>
     </recent_temporary>
   </component>
@@ -142,16 +156,17 @@
       <workItem from="1515919172866" duration="6896000" />
       <workItem from="1516037437438" duration="64000" />
       <workItem from="1516037722912" duration="17000" />
+      <workItem from="1516043939519" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9709000" />
+    <option name="totallyTimeSpent" value="9721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14494875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14494875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -187,7 +202,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -195,7 +209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -203,7 +216,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -282,7 +294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -290,7 +301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -298,6 +308,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8. Trip Length.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>
