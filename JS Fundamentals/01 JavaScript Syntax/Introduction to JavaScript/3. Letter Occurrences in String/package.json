@@ -1,0 +1,9 @@
+{
+  "name": "3.-letter-occurrences-in-string",
+  "version": "0.0.0",
+  "description": "3. Letter Occurrences in String",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}

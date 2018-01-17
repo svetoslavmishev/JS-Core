@@ -1,0 +1,9 @@
+{
+  "name": "2.-calculate-sum-and-vat",
+  "version": "0.0.0",
+  "description": "2. Calculate Sum and VAT",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}

@@ -1,0 +1,9 @@
+﻿{
+  "name": "5.-string-of-numbers-1-n",
+  "version": "0.0.0",
+  "description": "5. String of Numbers 1…N",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}
