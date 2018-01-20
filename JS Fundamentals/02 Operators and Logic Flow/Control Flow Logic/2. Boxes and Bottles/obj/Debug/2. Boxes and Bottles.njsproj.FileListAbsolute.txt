@@ -1,2 +1,4 @@
 C:\Users\Svetlio\Desktop\02 Operators and Logic Flow - Copy\Control Flow Logic\2. Boxes and Bottles\obj\Debug\2. Boxes and Bottles.njsproj.CoreCompileInputs.cache
 C:\Users\Svetlio\Desktop\02 Operators and Logic Flow - Copy\Control Flow Logic\2. Boxes and Bottles\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Svetlio\Desktop\JS-Core\JS Fundamentals\02 Operators and Logic Flow\Control Flow Logic\2. Boxes and Bottles\obj\Debug\2. Boxes and Bottles.njsproj.CoreCompileInputs.cache
+C:\Users\Svetlio\Desktop\JS-Core\JS Fundamentals\02 Operators and Logic Flow\Control Flow Logic\2. Boxes and Bottles\bin\Microsoft.NodejsTools.WebRole.dll

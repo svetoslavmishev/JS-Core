@@ -15,7 +15,17 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "5. Triangle Area", "5. Tria
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "6. Cone", "6. Cone\6. Cone.njsproj", "{27E5481D-7263-4B15-AAD0-6B20E6F0A941}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "12. Prime Number Checker", "12. Prime Number Checker\12. Prime Number Checker.njsproj", "{4AB35149-BE49-4D7E-BA34-09A55DB94180}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "11. Binary Logarithm", "11. Binary Logarithm\11. Binary Logarithm.njsproj", "{3849980E-96FB-466C-B03C-6CE057B85A76}"
+EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "7. Odd Or Even", "7. Odd Or Even\7. Odd Or Even.njsproj", "{8E5D6B75-D4D8-46E7-A03C-21ED27246DC1}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "9. Colorful Numbers", "9. Colorful Numbers\9. Colorful Numbers.njsproj", "{208A5723-256E-4E83-875D-3B7BF7F32C16}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "8. Fruit or Vegetable", "8. Fruit or Vegetable\8. Fruit or Vegetable.njsproj", "{AAA8BFA7-431F-4D6E-BFBA-7C97D5C2A96C}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "10. Chess Board", "10. Chess Board\10. Chess Board.njsproj", "{89A3247A-DA14-4A40-84D5-3F624E59BF52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +57,30 @@ Global
 		{27E5481D-7263-4B15-AAD0-6B20E6F0A941}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27E5481D-7263-4B15-AAD0-6B20E6F0A941}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27E5481D-7263-4B15-AAD0-6B20E6F0A941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB35149-BE49-4D7E-BA34-09A55DB94180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB35149-BE49-4D7E-BA34-09A55DB94180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB35149-BE49-4D7E-BA34-09A55DB94180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB35149-BE49-4D7E-BA34-09A55DB94180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3849980E-96FB-466C-B03C-6CE057B85A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3849980E-96FB-466C-B03C-6CE057B85A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3849980E-96FB-466C-B03C-6CE057B85A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3849980E-96FB-466C-B03C-6CE057B85A76}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8E5D6B75-D4D8-46E7-A03C-21ED27246DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8E5D6B75-D4D8-46E7-A03C-21ED27246DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E5D6B75-D4D8-46E7-A03C-21ED27246DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E5D6B75-D4D8-46E7-A03C-21ED27246DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208A5723-256E-4E83-875D-3B7BF7F32C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208A5723-256E-4E83-875D-3B7BF7F32C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208A5723-256E-4E83-875D-3B7BF7F32C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208A5723-256E-4E83-875D-3B7BF7F32C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAA8BFA7-431F-4D6E-BFBA-7C97D5C2A96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA8BFA7-431F-4D6E-BFBA-7C97D5C2A96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA8BFA7-431F-4D6E-BFBA-7C97D5C2A96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA8BFA7-431F-4D6E-BFBA-7C97D5C2A96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A3247A-DA14-4A40-84D5-3F624E59BF52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A3247A-DA14-4A40-84D5-3F624E59BF52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A3247A-DA14-4A40-84D5-3F624E59BF52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A3247A-DA14-4A40-84D5-3F624E59BF52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
