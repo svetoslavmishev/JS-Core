@@ -1,0 +1,2 @@
+C:\Users\Svetlio\Desktop\02 Operators and Logic Flow - Copy\Control Flow Logic\7. Odd Or Even\obj\Debug\7. Odd Or Even.njsproj.CoreCompileInputs.cache
+C:\Users\Svetlio\Desktop\02 Operators and Logic Flow - Copy\Control Flow Logic\7. Odd Or Even\bin\Microsoft.NodejsTools.WebRole.dll

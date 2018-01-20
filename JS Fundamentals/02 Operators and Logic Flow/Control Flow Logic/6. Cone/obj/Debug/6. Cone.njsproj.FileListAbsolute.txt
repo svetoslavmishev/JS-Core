@@ -1,0 +1,2 @@
+C:\Users\Svetlio\Desktop\02 Operators and Logic Flow - Copy\Control Flow Logic\6. Cone\obj\Debug\6. Cone.njsproj.CoreCompileInputs.cache
+C:\Users\Svetlio\Desktop\02 Operators and Logic Flow - Copy\Control Flow Logic\6. Cone\bin\Microsoft.NodejsTools.WebRole.dll

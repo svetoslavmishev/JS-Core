@@ -1,0 +1,9 @@
+{
+  "name": "5.-triangle-area",
+  "version": "0.0.0",
+  "description": "5. Triangle Area",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}

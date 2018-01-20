@@ -1,0 +1,3 @@
+C:\Users\Svetlio\Desktop\02 Operators and Logic Flow - Copy\Control Flow Logic\1. Multiply Numbers\obj\Debug\1. Multiply Numbers.njsprojResolveAssemblyReference.cache
+C:\Users\Svetlio\Desktop\02 Operators and Logic Flow - Copy\Control Flow Logic\1. Multiply Numbers\obj\Debug\1. Multiply Numbers.njsproj.CoreCompileInputs.cache
+C:\Users\Svetlio\Desktop\02 Operators and Logic Flow - Copy\Control Flow Logic\1. Multiply Numbers\bin\Microsoft.NodejsTools.WebRole.dll

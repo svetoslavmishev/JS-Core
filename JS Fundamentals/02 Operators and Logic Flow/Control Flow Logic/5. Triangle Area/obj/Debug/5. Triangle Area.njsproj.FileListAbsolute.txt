@@ -1,0 +1,2 @@
+C:\Users\Svetlio\Desktop\02 Operators and Logic Flow - Copy\Control Flow Logic\5. Triangle Area\obj\Debug\5. Triangle Area.njsproj.CoreCompileInputs.cache
+C:\Users\Svetlio\Desktop\02 Operators and Logic Flow - Copy\Control Flow Logic\5. Triangle Area\bin\Microsoft.NodejsTools.WebRole.dll

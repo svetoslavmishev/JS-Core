@@ -1,0 +1,9 @@
+{
+  "name": "1.-multiply-numbers",
+  "version": "0.0.0",
+  "description": "1. Multiply Numbers",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}

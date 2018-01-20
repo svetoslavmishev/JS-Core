@@ -1,0 +1,9 @@
+{
+  "name": "2.-boxes-and-bottles",
+  "version": "0.0.0",
+  "description": "2. Boxes and Bottles",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}
