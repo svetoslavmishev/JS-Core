@@ -1,2 +1,0 @@
-C:\Users\Svetlio\Desktop\JS-Core\JS Fundamentals\02 Operators and Logic Flow\Control Flow Logic\12. Prime Number Checker\obj\Debug\12. Prime Number Checker.njsproj.CoreCompileInputs.cache
-C:\Users\Svetlio\Desktop\JS-Core\JS Fundamentals\02 Operators and Logic Flow\Control Flow Logic\12. Prime Number Checker\bin\Microsoft.NodejsTools.WebRole.dll

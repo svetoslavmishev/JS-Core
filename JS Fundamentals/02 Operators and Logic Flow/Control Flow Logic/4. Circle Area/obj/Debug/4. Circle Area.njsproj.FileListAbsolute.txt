@@ -1,4 +1,0 @@
-C:\Users\Svetlio\Desktop\02 Operators and Logic Flow - Copy\Control Flow Logic\4. Circle Area\obj\Debug\4. Circle Area.njsproj.CoreCompileInputs.cache
-C:\Users\Svetlio\Desktop\02 Operators and Logic Flow - Copy\Control Flow Logic\4. Circle Area\bin\Microsoft.NodejsTools.WebRole.dll
-C:\Users\Svetlio\Desktop\JS-Core\JS Fundamentals\02 Operators and Logic Flow\Control Flow Logic\4. Circle Area\obj\Debug\4. Circle Area.njsproj.CoreCompileInputs.cache
-C:\Users\Svetlio\Desktop\JS-Core\JS Fundamentals\02 Operators and Logic Flow\Control Flow Logic\4. Circle Area\bin\Microsoft.NodejsTools.WebRole.dll
