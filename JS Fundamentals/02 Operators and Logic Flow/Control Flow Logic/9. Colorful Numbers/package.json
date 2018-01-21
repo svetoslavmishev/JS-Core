@@ -1,0 +1,9 @@
+{
+  "name": "9.-colorful-numbers",
+  "version": "0.0.0",
+  "description": "9. Colorful Numbers",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}

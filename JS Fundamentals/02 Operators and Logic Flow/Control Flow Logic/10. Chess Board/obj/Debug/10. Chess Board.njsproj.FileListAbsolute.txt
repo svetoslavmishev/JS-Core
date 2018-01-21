@@ -1,0 +1,2 @@
+C:\Users\Svetlio\Desktop\JS-Core\JS Fundamentals\02 Operators and Logic Flow\Control Flow Logic\10. Chess Board\obj\Debug\10. Chess Board.njsproj.CoreCompileInputs.cache
+C:\Users\Svetlio\Desktop\JS-Core\JS Fundamentals\02 Operators and Logic Flow\Control Flow Logic\10. Chess Board\bin\Microsoft.NodejsTools.WebRole.dll

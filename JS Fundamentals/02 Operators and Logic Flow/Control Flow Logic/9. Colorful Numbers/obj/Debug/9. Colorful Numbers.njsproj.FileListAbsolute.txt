@@ -1,0 +1,2 @@
+C:\Users\Svetlio\Desktop\JS-Core\JS Fundamentals\02 Operators and Logic Flow\Control Flow Logic\9. Colorful Numbers\obj\Debug\9. Colorful Numbers.njsproj.CoreCompileInputs.cache
+C:\Users\Svetlio\Desktop\JS-Core\JS Fundamentals\02 Operators and Logic Flow\Control Flow Logic\9. Colorful Numbers\bin\Microsoft.NodejsTools.WebRole.dll

@@ -1,0 +1,9 @@
+{
+  "name": "11.-binary-logarithm",
+  "version": "0.0.0",
+  "description": "11. Binary Logarithm",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}

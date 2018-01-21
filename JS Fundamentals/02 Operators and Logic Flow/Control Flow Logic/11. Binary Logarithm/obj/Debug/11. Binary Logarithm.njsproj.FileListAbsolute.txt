@@ -1,0 +1,2 @@
+C:\Users\Svetlio\Desktop\JS-Core\JS Fundamentals\02 Operators and Logic Flow\Control Flow Logic\11. Binary Logarithm\obj\Debug\11. Binary Logarithm.njsproj.CoreCompileInputs.cache
+C:\Users\Svetlio\Desktop\JS-Core\JS Fundamentals\02 Operators and Logic Flow\Control Flow Logic\11. Binary Logarithm\bin\Microsoft.NodejsTools.WebRole.dll

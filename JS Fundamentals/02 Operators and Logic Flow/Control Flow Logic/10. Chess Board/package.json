@@ -1,0 +1,9 @@
+{
+  "name": "10.-chess-board",
+  "version": "0.0.0",
+  "description": "10. Chess Board",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}
