@@ -1,0 +1,9 @@
+{
+  "name": "14.-biggest-3-numbers",
+  "version": "0.0.0",
+  "description": "14. Biggest 3 Numbers",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}

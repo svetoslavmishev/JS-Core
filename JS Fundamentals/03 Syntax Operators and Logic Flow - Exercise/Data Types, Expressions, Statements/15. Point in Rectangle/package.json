@@ -1,0 +1,9 @@
+{
+  "name": "15.-point-in-rectangle",
+  "version": "0.0.0",
+  "description": "15. Point in Rectangle",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}

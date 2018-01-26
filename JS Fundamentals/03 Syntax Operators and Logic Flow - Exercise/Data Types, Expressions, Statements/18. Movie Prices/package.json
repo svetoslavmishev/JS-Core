@@ -1,0 +1,9 @@
+{
+  "name": "18.-movie-prices",
+  "version": "0.0.0",
+  "description": "18. Movie Prices",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}
