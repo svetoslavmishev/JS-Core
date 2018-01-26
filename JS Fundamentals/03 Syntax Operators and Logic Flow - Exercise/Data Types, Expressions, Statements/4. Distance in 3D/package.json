@@ -1,0 +1,9 @@
+{
+  "name": "4.-distance-in-3-d",
+  "version": "0.0.0",
+  "description": "4. Distance in 3D",
+  "main": "app.js",
+  "author": {
+    "name": "Svetlio"
+  }
+}
