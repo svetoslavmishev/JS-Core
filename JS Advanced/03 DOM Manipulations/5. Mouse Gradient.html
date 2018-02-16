@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Mouse in Gradient</title>
+    <link rel="stylesheet" href="gradient.css"/>
+    <script src="gradient.js"></script>
+    <style>
+        #gradient-box {
+            width: 300px;
+            border: 2px solid lightgrey;
+        }
+
+        #gradient-box:hover {
+            border: 2px solid black;
+        }
+
+        #gradient {
+            height: 30px;
+            color: white;
+            text-shadow: 1px 1px 10px black;
+            text-align: center;
+            line-height: 30px;
+            background: linear-gradient(to right, black, white);
+            cursor: crosshair;
+        }
+    </style>
+</head>
+<body onload="attachGradientEvents()">
+<div id="gradient-box">
+    <div id="gradient">Click me!</div>
+</div>
+<div id="result"></div>
+
+</body>
+</html>
