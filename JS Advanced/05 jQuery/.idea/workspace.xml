@@ -178,14 +178,15 @@
       <workItem from="1518853241103" duration="23905000" />
       <workItem from="1518893553005" duration="89000" />
       <workItem from="1518904422345" duration="8543000" />
-      <workItem from="1518936129635" duration="6777000" />
-      <workItem from="1518983118140" duration="5000" />
-      <workItem from="1518983322472" duration="19000" />
+      <workItem from="1518936129635" duration="7375000" />
+      <workItem from="1518945523239" duration="66000" />
+      <workItem from="1519073176424" duration="12000" />
+      <workItem from="1519073302946" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41072000" />
+    <option name="totallyTimeSpent" value="41729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -239,10 +240,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3. Countries Table.html">
+    <entry file="file://$PROJECT_DIR$/link-buttons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -251,7 +252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -266,7 +266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -320,17 +319,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/link-buttons.js" />
-    <entry file="file://$PROJECT_DIR$/4. Link Buttons.html" />
-    <entry file="file://$PROJECT_DIR$/select-towns.js" />
-    <entry file="file://$PROJECT_DIR$/5. Selectable Towns.html" />
     <entry file="file://$PROJECT_DIR$/extract-text.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="40">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/4. Link Buttons.html" />
+    <entry file="file://$PROJECT_DIR$/select-towns.js" />
+    <entry file="file://$PROJECT_DIR$/5. Selectable Towns.html" />
     <entry file="file://$PROJECT_DIR$/initialize-table.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -340,12 +338,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3. Countries Table.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="301">
           <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/link-buttons.js" />
   </component>
   <component name="masterDetails">
     <states>
