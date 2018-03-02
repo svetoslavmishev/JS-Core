@@ -1,4 +1,3 @@
-//Define an initial function
 function currencyFormatter(separator, symbol, symbolFirst, value) {
     let result = Math.trunc(value) + separator;
     result += value.toFixed(2).substr(-2, 2);
@@ -9,9 +8,7 @@ function currencyFormatter(separator, symbol, symbolFirst, value) {
     }
 }
 
-//The initial function is parameter
 function getDollar(formatter) {
-    //Reduce number of parameters
     return function (value) {
         return formatter(',', '$', true, value);
     };

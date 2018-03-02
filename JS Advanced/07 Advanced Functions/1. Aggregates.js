@@ -1,5 +1,3 @@
-"use strict";
-
 function aggregate(arr) {
 
     function reducer(arr, func) {
@@ -16,5 +14,4 @@ function aggregate(arr) {
     console.log(`Join  = ` + reducer(arr, (a, b) => '' + a + b));
 }
 
-//aggregate([2, 3, 10, 5]);
 aggregate([5, -3, 20, 7, 0.5]);

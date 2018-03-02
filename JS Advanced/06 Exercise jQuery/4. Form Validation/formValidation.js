@@ -10,7 +10,6 @@ function validate() {
     let validNotification = $('#valid');
     let isValid = false;
 
-    // show/hide company info
     checkboxBtn.on('change', function () {
         if (checkboxBtn.is(":checked")) {
             companyInfo.css('display', 'block');
@@ -19,7 +18,6 @@ function validate() {
         }
     });
 
-    //clear default submit button behavior and
     submitButton.on('click', function (event) {
         event.preventDefault();
         validateAllForm();

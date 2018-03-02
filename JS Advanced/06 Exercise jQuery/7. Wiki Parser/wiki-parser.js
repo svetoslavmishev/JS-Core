@@ -10,6 +10,5 @@ function wikiParser(selector) {
         .replace(/\[\[([^'=\[\|]*?)]]/g, (match, group) => `<a href="/wiki/${group}">${group}</a>`)
         .replace(/\[\[([^'=\[\]]+?)\|([^'=\[\]]+?)]]/g, (match, group1, group2) => `<a href="/wiki/${group1}">${group2}</a>`);
 
-    //The html(content) method sets the content of the selected elements.
     $(selector).html(encodedText);
 }

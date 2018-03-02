@@ -21,8 +21,7 @@ function domSearch(selector, caseSensitive) {
     let divResultControl = $('<div class="result-controls">')
         .append($('<ul class="items-list">'))
         .appendTo(div);
-
-    //Add elements
+    
     addButton.on('click', function () {
         let addInput = ($('.add-controls label input')).val();
         $('<li class="list-item">')
@@ -34,12 +33,10 @@ function domSearch(selector, caseSensitive) {
         $('.add-controls label input').val('');
     });
 
-    //delete Elements
     function deleteElement() {
         $(this).parent().remove();
     }
 
-    //Search and hide elements
     function search() {
         let searchInput = $(this).val();
         $('.list-item').each((index, li) => matches(li, searchInput));

@@ -8,7 +8,6 @@ function attachEventsListeners() {
     let seconds = document.getElementById('seconds');
     let secondsBtn = document.getElementById('secondsBtn');
 
-    //One day is equal to 24 hours/1440 minutes/86400 seconds
     daysBtn.addEventListener('click', function () {
         hours.value = Number(days.value) * 24;
         minutes.value = Number(days.value) * 1440;
