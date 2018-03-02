@@ -10,4 +10,3 @@ function htmlEscape(input) {
 }
 
 htmlEscape(['<b>unescaped text</b>', 'normal text']);
-//htmlEscape(['<div style=\"color: red;\">Hello, Red!</div>', '<table><tr><td>Cell 1</td><td>Cell 2</td><tr>']);

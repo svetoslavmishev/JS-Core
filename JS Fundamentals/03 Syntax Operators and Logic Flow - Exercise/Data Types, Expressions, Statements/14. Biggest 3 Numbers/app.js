@@ -1,7 +1,4 @@
 function biggestNumber(arrayNumber) {
-    //let num1 = arrayNumber[0];
-    //let num2 = arrayNumber[1];
-    //let num3 = arrayNumber[2];
 
     let [num1, num2, num3] = arrayNumber;
 

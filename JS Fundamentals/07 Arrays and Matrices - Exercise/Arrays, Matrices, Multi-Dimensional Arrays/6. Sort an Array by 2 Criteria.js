@@ -10,9 +10,6 @@ function sortArrayByTwoCriteria(args) {
         }
     });
     console.log(sortedArray.join('\n'));
-
-    //Or first sort alphabetic then by length. In reverse order they are not sorted by length!
-    //return args.sort().sort((a, b) => a.length - b.length);
 }
 
 sortArrayByTwoCriteria(['alpha', 'beta', 'gamma']);

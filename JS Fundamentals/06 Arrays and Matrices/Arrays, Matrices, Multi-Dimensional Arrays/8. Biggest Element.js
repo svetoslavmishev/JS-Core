@@ -1,17 +1,8 @@
 function biggestElement(matrix) {
 
     let biggestNum = Number.NEGATIVE_INFINITY;
-    // for (let elem of matrix) {
-    //     for (let e of elem) {
-    //         if (e > biggestNum) {
-    //             biggestNum = e;
-    //         }
-    //     }
-    // }
 
-    //OR SHORTER SOLUTION
     matrix.forEach(e => e.forEach(a => biggestNum = Math.max(biggestNum, a)));
-
 
     console.log(biggestNum);
 }

@@ -6,4 +6,4 @@ function getLastMonthDay([day, month, year]) {
 }
 getLastMonthDay([17, 3, 2002]);
 getLastMonthDay([13, 12, 2004]);
-getLastMonthDay([01, 01, 2004]);
+getLastMonthDay([1, 1, 2004]);

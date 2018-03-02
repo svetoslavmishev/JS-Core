@@ -1,12 +1,12 @@
 "use strict";
 
 function orbit(arr) {
-    let [rows, cols, targetRow, targetCol] = arr
-    let matrix = fillZeros(rows, cols)
+    let [rows, cols, targetRow, targetCol] = arr;
+    let matrix = fillZeros(rows, cols);
 
-    let num = 1
-    matrix[targetRow][targetCol] = num
-    let count = 1
+    let num = 1;
+    matrix[targetRow][targetCol] = num;
+    let count = 1;
 
     while (!isFilled(matrix)) {
         num++;
@@ -21,7 +21,7 @@ function orbit(arr) {
         count++
     }
 
-    console.log(matrix.map(el => el.join(" ")).join('\n'))
+    console.log(matrix.map(el => el.join(" ")).join('\n'));
 
     function isFilled(matrix) {
         for (let row = 0; row < matrix.length; row++) {
@@ -36,7 +36,7 @@ function orbit(arr) {
     }
 
     function fillZeros(rows, cols) {
-        let matrix = []
+        let matrix = [];
         for (let i = 0; i < rows; i++) {
             matrix.push('0'.repeat(cols).split('').map(Number))
         }
@@ -45,5 +45,3 @@ function orbit(arr) {
 }
 
 orbit([4, 4, 0, 0]);
-// orbit([5, 5, 2, 2]);
-// orbit([3, 3, 2, 2]);

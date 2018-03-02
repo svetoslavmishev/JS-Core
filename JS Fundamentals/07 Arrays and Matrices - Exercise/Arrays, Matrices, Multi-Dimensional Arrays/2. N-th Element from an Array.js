@@ -5,10 +5,6 @@ function printElement(input) {
         .filter((elem, i) => i % n == 0)
         .join('\n');
 
-    // for (let i = 0; i < input.length; i += n) {
-    //     console.log(input[i]);
-    // }
-
     console.log(result);
 }
 

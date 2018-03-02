@@ -1,9 +1,7 @@
 "use strict";
 
 function рepeatString(text, n) {
-    //return text.repeat(n);
 
-    //Hint in Exercises: Strings and Regular Expressions document
     let result = '';
     for (let i = 0; i < n; i++) {
         result += text;

@@ -4,7 +4,7 @@ function censorship(text, words) {
 
     for (let w of words) {
         let newString = '-'.repeat(w.length);
-        //Method .replace() - Only the first occurrence will be replaced.
+
         //We use endless while loop, which replace all matches in text until value is -1
         while (text.indexOf(w) > -1) {
             text = text.replace(w, newString);

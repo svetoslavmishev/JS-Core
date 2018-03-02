@@ -7,9 +7,6 @@ function evenPositionElement(args) {
     }
 
     console.log(result);
-
-    // short lambda solution
-    //return args.filter((element, i) => i % 2 == 0).join(' ');
 }
 
 evenPositionElement(['20', '30', '40']);
