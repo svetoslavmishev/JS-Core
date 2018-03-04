@@ -1,5 +1,4 @@
 <br/>
-<br/>
 
 ## <p align="center"> <b>JS Core</b> module includes three courses from the main program in </br>software engineering<p>
 
