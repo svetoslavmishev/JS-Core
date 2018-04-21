@@ -1,0 +1,11 @@
+{{#each comments}}
+<article class="post post-content" data-id="{{_id}}">
+    <p>{{content}}</p>
+    <div class="info">
+        submitted {{submitted}} ago by {{author}} |
+        {{#if isAuthor}}
+            <a href="#" class="deleteLink" id="delComment">delete</a>
+        {{/if}}
+    </div>
+</article>
+{{/each}}
