@@ -109,7 +109,7 @@ function render(chirpContainer, chirperContainer, res) {
         let templateChirperToHtml = templateChirper(contextChirper);
         chirperContainer.append(templateChirperToHtml);
 
-        $('.chirp-author').on('click', getFollowUser)
+        $('.chirp-author').on('click', getProfileUser)
     })();
 }
 
@@ -205,23 +205,55 @@ function createChirp(ev) {
     }
 }
 
- function deleteChirp(ev) {
+function deleteChirp(ev) {
     ev.preventDefault();
     let id = $('#deleteBtn').closest('article').attr('data-id');
 
-     requester.remove('appdata', `chirps/${id} `, 'kinvey')
+    requester.remove('appdata', `chirps/${id} `, 'kinvey')
         .then(function (res) {
             auth.showInfo('Chirp deleted.');
             myChirps();
         }).catch(auth.handleAjaxError);
 }
 
-function getFollowUser() {
+function getProfileUser() {
+    let username = $(this).text();
+    let text = $(this).closest('article').find('p').text();
+    let day = $(this).closest('article').find('.chirp-time').text();
+    let userchirps = sessionStorage.getItem('userchirps');
+    let following = sessionStorage.getItem('following');
+    let followers = sessionStorage.getItem('followers');
 
+    (async function () {
+        let profileContainer = $('#viewProfile .content');
+        profileContainer.empty();
+
+        let profileHbs = await $.get('templates/profile.hbs');
+        let templateProfile = Handlebars.compile(profileHbs);
+
+        let context = {
+            username,
+            text,
+            day,
+            userchirps,
+            following,
+            followers
+        };
+
+        console.log(context);
+
+        let templateToHtml = templateProfile(context);
+        profileContainer.append(templateToHtml);
+
+        $('#btnFollow').on('click',clickFollow)
+    }());
 
     showProfileView();
 }
 
+function clickFollow() {
+    alert('OK')
+}
 function calcTime(dateIsoFormat) {
     let diff = new Date - (new Date(dateIsoFormat));
     diff = Math.floor(diff / 60000);

@@ -1,0 +1,19 @@
+<div class="chirper">
+
+    <h2 class="titlebar">{{username}}</h2>
+
+    <a id="btnFollow" class="chirp-author" href="#">Follow</a>
+
+    <div id="userProfileStats" class="user-details">
+        <span>{{userchirps}} chirps</span> | <span>{{following}} following</span> | <span>{{followers}} followers</span>
+    </div>
+</div>
+<div id="profileChirps" class="chirps"><h2 class="titlebar">Chirps</h2>
+    <article class="chirp">
+        <div class="titlebar">
+            <a href="#" class="chirp-author">{{username}}</a>
+            <span class="chirp-time">{{day}}</span>
+        </div>
+        <p>{{text}}</p>
+    </article>
+</div>
