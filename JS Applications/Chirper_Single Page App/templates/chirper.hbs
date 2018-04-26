@@ -1,0 +1,10 @@
+<h2 class="titlebar">{{name}}</h2>
+
+<form id="formSubmitChirp" class="chirp-form">
+    <textarea name="text" class="chirp-input"></textarea>
+    <input class="chirp-submit" id="btnSubmitChirp" value="Chirp" type="submit" onclick="createChirp(event)">
+</form>
+
+<div id="userStats" class="user-details">
+    <span>{{userchirps}} chirps</span> | <span>{{following}} following</span> | <span>{{followers}} followers</span>
+</div>
