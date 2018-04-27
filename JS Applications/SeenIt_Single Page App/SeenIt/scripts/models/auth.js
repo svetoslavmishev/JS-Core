@@ -42,13 +42,6 @@ let auth = (() => {
         sessionStorage.setItem('authtoken', authtoken);
     }
 
-    function showInfo(message) {
-        let infoBox = $('#infoBox');
-        infoBox.text(message);
-        infoBox.show();
-        setTimeout(() => infoBox.fadeOut(), 3000);
-    }
-
     function handleAjaxError(response) {
         let errorMsg = JSON.stringify(response);
         if (response.readyState === 0)
@@ -58,10 +51,17 @@ let auth = (() => {
         showError(errorMsg);
     }
 
+    function showInfo(message) {
+        let infoBox = $('#infoBox');
+        infoBox.find('span').text(message);
+        infoBox.fadeIn();
+        setTimeout(() => infoBox.fadeOut(), 3000);
+    }
+
     function showError(message) {
         let errorBox = $('#errorBox');
-        errorBox.text(message);
-        errorBox.show();
+        errorBox.find('span').text(message);
+        errorBox.fadeIn();
         setTimeout(() => errorBox.fadeOut(), 3000);
     }
 
