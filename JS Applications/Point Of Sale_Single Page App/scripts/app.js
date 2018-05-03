@@ -1,0 +1,5 @@
+function startApp() {
+    showMenuLinks();
+    attachAllEvents();
+
+}
