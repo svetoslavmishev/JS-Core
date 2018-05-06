@@ -12,12 +12,11 @@
     <script src="node_modules/handlebars/dist/handlebars.js"></script>
     <script src="scripts/modules/auth.js"></script>
     <script src="scripts/modules/requester.js"></script>
-
+    <script src="scripts/format-date.js"></script>
     <script src="scripts/displayElements.js"></script>
-    <script src="scripts/crudOperations.js"></script>
     <script src="scripts/attachEvents.js"></script>
+    <script src="scripts/crudOperations.js"></script>
     <script src="scripts/app.js"></script>
-
 </head>
 
 <body onload="startApp()">
@@ -31,10 +30,10 @@
         <nav id="nav">
             <ul>
                 <li>
-                    <a href="#" data-id="editor">Editor</a>
+                    <a href="#" class="editor">Editor</a>
                 </li>
                 <li>
-                    <a href="#" data-id="editor" data-id="overview">Overview</a>
+                    <a href="#" class="overview">Overview</a>
                 </li>
                 <li>
                     <a href="#" class="logout" data-id="logout">Logout</a>
@@ -94,15 +93,15 @@
                 <div class="col">Action</div>
             </div>
             <div id="active-entries">
-                <div class="row">
-                    <div class="col wide">Apple</div>
-                    <div class="col wide">10</div>
-                    <div class="col wide">4.50</div>
-                    <div class="col">45.00</div>
-                    <div class="col right">
-                        <a href="#">&#10006;</a>
-                    </div>
-                </div>
+                <!--<div class="row">-->
+                <!--<div class="col wide">Apple</div>-->
+                <!--<div class="col wide">10</div>-->
+                <!--<div class="col wide">4.50</div>-->
+                <!--<div class="col">45.00</div>-->
+                <!--<div class="col right">-->
+                <!--<a href="#">&#10006;</a>-->
+                <!--</div>-->
+                <!--</div>-->
             </div>
             <div class="row">
                 <form id="create-entry-form">
@@ -128,7 +127,7 @@
                     <div class="col wide">
                     </div>
                     <div class="col wide right">Total:</div>
-                    <div class="col">76.50</div>
+                    <div class="col">0.00</div>
                     <div class="col">
                         <input id="checkoutBtn" type="submit" value="Checkout"/>
                     </div>
@@ -143,38 +142,9 @@
     <section id="all-receipt-view">
         <h1>All Receipts</h1>
         <div class="table">
-            <div class="table-head">
-                <div class="col wide">Creation Date</div>
-                <div class="col wide">Items</div>
-                <div class="col">Total</div>
-                <div class="col">Actions</div>
-            </div>
-            <div class="row">
-                <div class="col wide">2018-04-15 14:58</div>
-                <div class="col wide">10</div>
-                <div class="col">110.00</div>
-                <div class="col">
-                    <a href="#">Details</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col wide">2018-04-15 12:33</div>
-                <div class="col wide">15</div>
-                <div class="col">160.50</div>
-                <div class="col">
-                    <a href="#">Details</a>
-                </div>
-            </div>
-            <div class="table-foot">
-                <form id="create-receipt-form">
-                    <div class="col wide">
-                    </div>
-                    <div class="col wide right">Total:</div>
-                    <div class="col">270.50</div>
-                    <div class="col">
-                    </div>
-                </form>
-            </div>
+
+            <!--DISPLAY ALL RECEIPT OF CURRENT LOGGED USER-->
+
         </div>
     </section>
 

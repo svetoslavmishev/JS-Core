@@ -1,3 +1,8 @@
+function showView(viewName) {
+    $('#container section').hide();
+    $('#' + viewName).show();
+}
+
 function showMenuLinks() {
     if (sessionStorage.getItem('authtoken') === null) {
         showView('welcome-section');
@@ -9,15 +14,17 @@ function showMenuLinks() {
     }
 }
 
-function showView(viewName) {
-    $('#container section').hide();
-    $('#' + viewName).show();
-}
-
 function createRecieptView() {
     showView('create-receipt-view');
 }
 
+function myReceiptView() {
+    showView('all-receipt-view');
+}
+
+function showReceiptDetails() {
+    showView('all-receipt-view');
+}
 
 $(document).on({
     ajaxStart: function () {
@@ -27,12 +34,3 @@ $(document).on({
         $("#loadingBox").hide()
     }
 });
-
-function showInfo(message) {
-    $('#infoBox').text(message);
-    $('#infoBox').show();
-    setTimeout(function () {
-        $('#infoBox').fadeOut();
-    }, 3000);
-}
-

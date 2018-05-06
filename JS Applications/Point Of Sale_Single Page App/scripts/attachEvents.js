@@ -3,12 +3,12 @@ function attachAllEvents() {
     $("#login-form").on('submit',loginUser);
 
     //ATTACH BUTTONS
+    $('#addItemBtn').on('click', addEntry);
+    $('#checkoutBtn').on('click', checkoutReceipt);//SET FALSE TO ACTIVE RECEIPT
+
+    ///ATTACH MENU LINKS
+    $('.editor').on('click',getActiveReceipt);
+    $('.overview').on('click', overView);//SHOULD DISPLAY ALL RECEIPTS OF CURRENT LOGGED USER
     $('.logout').on('click',logoutUser);
-
-
-    ///ATTACH LINKS
-    $('#nav a[data-id="editor"]').on('click',getActiveReceipt);
-    // $('#nav a[data-id="overview"]').on('click',logoutUser);
-    // $('#nav a[data-id="logout"]').on('click',logoutUser);
 
 }
