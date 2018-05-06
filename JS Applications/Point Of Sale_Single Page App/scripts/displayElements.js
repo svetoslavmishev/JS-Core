@@ -23,7 +23,7 @@ function myReceiptView() {
 }
 
 function showReceiptDetails() {
-    showView('all-receipt-view');
+    showView('receipt-details-view');
 }
 
 $(document).on({

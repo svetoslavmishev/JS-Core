@@ -213,11 +213,22 @@ function showDetails() {
 
     requester.get('appdata', `entries?query={"receiptId":"${detailId}"}`, 'kinvey')
         .then(function (res) {
+            (async function () {
+                let detailContainer = $('#receipt-details-view').find('.table');
+                detailContainer.empty();
 
-            console.log(res);
+                res.forEach(el => {
+                    el.totalSum = (Number(el.price) * Number(el.qty)).toFixed(2);
+                });
 
-            showReceiptDetails();
+    showReceiptDetails();            let details = await $.get('templates/receipt-details.hbs');
+                let template = Handlebars.compile(details);
+                let context = {detail: res};
+
+                let templateToHtml = template(context);
+                detailContainer.append(templateToHtml);
+
+                showReceiptDetails();
+            }());
         }).catch(auth.handleAjaxError);
-
-
 }
