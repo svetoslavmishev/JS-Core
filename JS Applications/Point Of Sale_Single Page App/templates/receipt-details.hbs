@@ -1,0 +1,14 @@
+<div class="table-head">
+    <div class="col wide">Product Name</div>
+    <div class="col wide">Quantity</div>
+    <div class="col wide">Price per Unit</div>
+    <div class="col">Sub-total</div>
+</div>
+{{#each detail}}
+    <div class="row">
+        <div class="col wide">{{type}}</div>
+        <div class="col wide">{{qty}}</div>
+        <div class="col wide">{{price}}</div>
+        <div class="col">{{totalSum}}</div>
+    </div>
+{{/each}}

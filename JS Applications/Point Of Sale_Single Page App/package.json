@@ -1,8 +1,12 @@
 {
-  "name": "JS Exam 15.04.2018",
+  "name": "point-of-sale.js",
   "version": "0.0.1",
+  "scripts": {
+    "start": "http-server"
+  },
   "dependencies": {
     "handlebars": "^4.0.11",
+    "http-server": "^0.11.1",
     "jquery": "^3.3.1"
   }
 }

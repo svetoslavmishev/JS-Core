@@ -1,0 +1,26 @@
+<div class="table-head">
+    <div class="col wide">Creation Date</div>
+    <div class="col wide">Items</div>
+    <div class="col">Total</div>
+    <div class="col">Actions</div>
+</div>
+{{#each receipt}}
+    <div class="row" data-id="{{_id}}">
+        <div class="col wide">{{date}}</div>
+        <div class="col wide">{{productCount}}</div>
+        <div class="col">{{total}}</div>
+        <div class="col">
+            <a href="#" class="details">Details</a>
+        </div>
+    </div>
+{{/each}}
+<div class="table-foot">
+    <form id="create-receipt-form">
+        <div class="col wide">
+        </div>
+        <div class="col wide right">Total:</div>
+        <div class="col" id="totalSum">100.00</div>
+        <div class="col">
+        </div>
+    </form>
+</div>
