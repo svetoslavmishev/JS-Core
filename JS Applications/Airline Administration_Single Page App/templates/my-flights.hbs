@@ -1,0 +1,16 @@
+{{#each airplane}}
+    <div class="flight-left">
+        <img src="{{image}}" alt="">
+    </div>
+    <div class="flight-right" data-id="{{_id}}">
+        <div>
+            <h3>{{destination}}</h3><span>{{formatDate}}</span>
+        </div>
+        <div>
+            from {{origin}}<span> {{departureTime}}</span>
+        </div>
+        <p>{{seats}} Seats ({{cost}}$ per seat)</p>
+        <a href="#" class="remove">REMOVE</a>
+        <a href="#" class="details">Details</a>
+    </div>
+{{/each}}
