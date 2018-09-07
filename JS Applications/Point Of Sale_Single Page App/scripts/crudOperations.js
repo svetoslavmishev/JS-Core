@@ -80,7 +80,7 @@ function getActiveReceipt() {
                     }).catch(auth.handleAjaxError + 'res = 1');
             }
             if (res.length === 0) {
-                let data = {"active": true, "productCount": 0, "total": 0};
+                let data = { "active": true, "productCount": 0, "total": 0 };
                 requester.post('appdata', 'receipts', 'kinvey', data)
                     .then(function (res) {
                         $('#create-receipt-form input[name="receiptId"]').val(res._id);
@@ -135,19 +135,22 @@ function addEntry(ev) {
     let product = $('#create-entry-form input[name="type"]').val();
     let quantity = $('#create-entry-form input[name="qty"]').val();
     let price = $('#create-entry-form input[name="price"]').val();
-    let data = {
-        "type": product,
-        "qty": Number(quantity),
-        "price": Number(price),
-        "receiptId": $('#create-receipt-form input[name="receiptId"]').val()
-    };
 
-    requester.post('appdata', 'entries', 'kinvey', data)
-        .then(function (res) {
-            getActiveReceipt();
-            $('#create-entry-form').trigger('reset');
-            auth.showInfo('Entry added');
-        }).catch(auth.handleAjaxError)
+    if (quantity > 0 && price > 0) {
+        let data = {
+            "type": product,
+            "qty": Number(quantity),
+            "price": Number(price),
+            "receiptId": $('#create-receipt-form input[name="receiptId"]').val()
+        };
+
+        requester.post('appdata', 'entries', 'kinvey', data)
+            .then(function (res) {
+                getActiveReceipt();
+                $('#create-entry-form').trigger('reset');
+                auth.showInfo('Entry added');
+            }).catch(auth.handleAjaxError)
+    }
 }
 
 function checkoutReceipt(ev) {
@@ -156,25 +159,27 @@ function checkoutReceipt(ev) {
     let receiptId = $('#create-receipt-form input[name="receiptId"]').val();
     let productCount = $('#create-receipt-form input[name="productCount"]').val();
     let total = $('#create-receipt-form input[name="total"]').val();
-    let data = {
-        "active": false,
-        "productCount": productCount,
-        "total": total
-    };
+    if (total > 0) {
+        let data = {
+            "active": false,
+            "productCount": productCount,
+            "total": total
+        };
 
-    requester.update('appdata', `receipts/${receiptId}`, 'kinvey', data)
-        .then(function (res) {
-            let endpoint = `receipts?query={"_acl.creator":"${sessionStorage.getItem('id')}","active":"true"}`;
-            requester.get('appdata', endpoint, 'kinvey')
-                .then(function (res) {
-                    $('#create-receipt-view').hide();
-                    displayActiveReceiptWithEntries(res);
-                    $('#create-receipt-form input[name="receiptId"]').val('');
-                    $('#create-receipt-form input[name="productCount"]').val('');
-                    $('#create-receipt-form input[name="total"]').val('');
-                }).catch(auth.handleAjaxError);
-            auth.showInfo('Receipt checked out');
-        }).catch(auth.handleAjaxError);
+        requester.update('appdata', `receipts/${receiptId}`, 'kinvey', data)
+            .then(function (res) {
+                let endpoint = `receipts?query={"_acl.creator":"${sessionStorage.getItem('id')}","active":"true"}`;
+                requester.get('appdata', endpoint, 'kinvey')
+                    .then(function (res) {
+                        $('#create-receipt-view').hide();
+                        displayActiveReceiptWithEntries(res);
+                        $('#create-receipt-form input[name="receiptId"]').val('');
+                        $('#create-receipt-form input[name="productCount"]').val('');
+                        $('#create-receipt-form input[name="total"]').val('');
+                    }).catch(auth.handleAjaxError);
+                auth.showInfo('Receipt checked out');
+            }).catch(auth.handleAjaxError);
+    }
 }
 
 function overView(ev) {
@@ -201,7 +206,7 @@ function dsipalyAllReceiptsByUser(res) {
 
         let allReceipts = await $.get('../templates/all-receipts.hbs');
         let template = Handlebars.compile(allReceipts);
-        let context = {receipt: res};
+        let context = { receipt: res };
 
         let templateToHtml = template(context);
         container.append(templateToHtml);
@@ -225,10 +230,12 @@ function showDetails() {
 
                 res.forEach(el => {
                     el.totalSum = (Number(el.price) * Number(el.qty)).toFixed(2);
+                    el.price = (Number(el.price)).toFixed(2);
                 });
+
                 let details = await $.get('../templates/receipt-details.hbs');
                 let template = Handlebars.compile(details);
-                let context = {detail: res};
+                let context = { detail: res };
 
                 let templateToHtml = template(context);
                 detailContainer.append(templateToHtml);

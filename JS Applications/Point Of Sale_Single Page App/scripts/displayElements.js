@@ -3,14 +3,16 @@ function showView(viewName) {
     $('#' + viewName).show();
 }
 
+$('#profile').hide();
+
 function showMenuLinks() {
-    if (sessionStorage.getItem('authtoken') === null) {
-        showView('welcome-section');
-        $('#profile').hide();
-    } else {
+    if (sessionStorage.getItem('authtoken')) {       
         showView('viewHome');
         $('#cashier a').text(sessionStorage.getItem('username'));
         $('#profile').show();
+    } else {
+        showView('welcome-section');
+        $('#profile').hide();
     }
 }
 

@@ -19,9 +19,9 @@ a:hover {
 }
 
 body {
-    background: #5b9bd5;
-	font-family: sans-serif;
-}
+    background: #bccfe0;
+    font-family: sans-serif;
+}    
 
 #container {
     margin: 40px;
@@ -32,4 +32,8 @@ body {
 footer {
 	margin-top: 20px;
 	text-align: center;
+}
+
+.welcome {
+    width: 360px;
 }

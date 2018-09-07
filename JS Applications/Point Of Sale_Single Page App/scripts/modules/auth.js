@@ -32,12 +32,10 @@ let auth = (() => {
     function saveSession(userInfo) {
         let id = userInfo['_id'];
         let username = userInfo['username'];
-        let name = userInfo['name'];
         let authtoken = userInfo['_kmd']['authtoken'];
 
         sessionStorage.setItem('id', id);
         sessionStorage.setItem('username', username);
-        sessionStorage.setItem('name', name);
         sessionStorage.setItem('authtoken', authtoken);
     }
 

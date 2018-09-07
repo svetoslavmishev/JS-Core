@@ -5,10 +5,10 @@ function attachAllEvents() {
 
     //ATTACH BUTTONS
     $('#addItemBtn').on('click', addEntry);
-    $('#checkoutBtn').on('click', checkoutReceipt);//SET FALSE TO ACTIVE RECEIPT
+    $('#checkoutBtn').on('click', checkoutReceipt); //SET FALSE TO ACTIVE RECEIPT
 
     ///ATTACH MENU LINKS
     $('.editor').on('click', getActiveReceipt);
-    $('.overview').on('click', overView);//SHOULD DISPLAY ALL RECEIPTS OF CURRENT LOGGED USER
+    $('.overview').on('click', overView);   //SHOULD DISPLAY ALL RECEIPTS OF CURRENT LOGGED USER
     $('.logout').on('click', logoutUser);
 }
