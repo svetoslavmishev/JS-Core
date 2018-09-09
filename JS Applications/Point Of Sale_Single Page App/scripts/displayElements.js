@@ -30,9 +30,9 @@ function showReceiptDetails() {
 
 $(document).on({
     ajaxStart: function () {
-        $("#loadingBox").show()
+        $("#loadingBox").show();
     },
     ajaxStop: function () {
-        $("#loadingBox").hide()
+        $("#loadingBox").hide();
     }
 });

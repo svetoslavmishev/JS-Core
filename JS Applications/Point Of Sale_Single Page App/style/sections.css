@@ -15,6 +15,12 @@ section h1 {
 	font-size: 1.25rem;
 }
 
+.welcome-login-form, .welcome-rigister-form{
+	padding: 30px;
+	box-shadow: 2px 5px 10px 8px #888888;
+ }
+
+
 .welcome-forms {
 	width: 35%;
 	float: right;
@@ -29,7 +35,7 @@ section h1 {
 }
 
 .welcome-forms input[type=submit] {
-	border: 2px solid #41719c;
+	border: 1px solid #41719c;
 	width: 100%;
 	background: #5b9bd5;
 	color: #fff;
@@ -38,14 +44,14 @@ section h1 {
 }
 
 .welcome-forms input {
-	border: 2px solid #41719c;
+	border: 1px solid #41719c;
 	width: 100%;
 	padding: 5px;
 }
 
 table {
 	width: 100%;
-	border: 2px solid #41719c;
+	border: 1px solid #41719c;
 	border-collapse: collapse;
 }
 
@@ -61,14 +67,14 @@ th, td {
 
 td input, td select {
 	padding: 5px;
-	border: 2px solid #41719c;
+	border: 1px solid #41719c;
 	width: 100%;
 	font-size: 1.25rem;
 }
 
 td button {
 	padding: 5px;
-	border: 2px solid #41719c;
+	border: 1px solid #41719c;
 	width: 100%;
 	font-size: 1.5rem;
 	background: #5b9bd5;
@@ -78,7 +84,7 @@ td button {
 
 .table {
     width: 100%;
-	border: 2px solid #41719c;
+	border: 1px solid #41719c;
 }
 
 .table-head {
@@ -101,6 +107,10 @@ td button {
     text-align: right;
 }
 
+.center {
+	text-align: center;
+}
+
 .table-foot {
     border-top:  2px solid #41719c;
 	font-weight: bold;
@@ -108,28 +118,28 @@ td button {
 
 .table a {
 	padding: 5px;
-	border: 2px solid #41719c;
+	border: 1px solid #a3d1df;
 	font-size: 1.5rem;
-	background: #5b9bd5;
+	background: #a3d1df;
 	color: #fff;
 	margin-right: 10px;
 }
 
 .table a:hover {
     text-decoration: none;
-    background-color: #41719c;
+    background-color:#71b0c3;
 }
 
 .table input {
 	padding: 5px;
-	border: 2px solid #41719c;
+	border: 1px solid #41719c;
 	width: 100%;
 	font-size: 1.25rem;
 }
 
 .table input[type=submit] {
 	padding: 5px;
-	border: 2px solid #41719c;
+	border: 1px solid #41719c;
 	width: 100%;
 	font-size: 1.5rem;
 	background: #5b9bd5;

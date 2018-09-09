@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>EasyCashier SPA</title>
+    <title>Easy Cashier</title>
     <link rel="stylesheet" href="style/site.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/header.css">
@@ -46,14 +46,25 @@
             <div class="welcome-text" id="viewHome">
                 <h1>What is EasyCashier?</h1>
                 <div class="welcome">
-                    <p>EasyCashier has automated and streamlined my business so I can connect better with your customers.
-                        Something that would have taken me hours to do now only takes a click of a button.</p>
-                    <img src="https://www.rocketcitymom.com/wp-content/uploads/2011/03/cashier.jpg" alt="">
+                    <div class="services">
+                        <h2>Track your profit</h2>
+                        Simple and efficient product screen interface where you can get customized sales and reports.
+                    </div>
+                    <div class="services">
+                        <h2>Expenses Control</h2>
+                        Track and monitor income and expenses. Get daily, weekly or yearly reports of your numbers.
+                    </div>
+                    <div class="services">
+                        <h2>Faster Checkout</h2>
+                        Avoid long checkout lines and improve speed and safety when reconciling cash balances.
+                    </div>
+
+                    <img src="https://vision.visaeurope.com/Media/Images/coffee-shop93-39673.jpg" alt="">
                 </div>
             </div>
             <div class="welcome-forms">
                 <div class="welcome-login-form">
-                    <h1>Sign in</h1>
+                    <h1 class="sign">Sign in</h1>
                     <form id="login-form">
                         <label for="username-login">Username</label>
                         <input type="text" name="username-login" id="username-login" placeholder="Username">
@@ -63,13 +74,13 @@
                     </form>
                 </div>
                 <div class="welcome-rigister-form">
-                    <h1>Register</h1>
+                    <h1 class="sign">Register</h1>
                     <form id="register-form">
                         <label for="username-register">Username</label>
                         <input type="text" name="username-register" id="username-register" placeholder="Username">
                         <label for="password-register">Password</label>
                         <input type="password" name="password-register" id="password-register" placeholder="Password">
-                        <label for="password-register-check">Password check</label>
+                        <label for="password-register-check">Repeat Password</label>
                         <input type="password" name="password-register-check" id="password-register-check" placeholder="Repeat password">
                         <input id="registerBtn" type="submit" value="Register" />
                     </form>
@@ -141,7 +152,7 @@
         </section>
 
         <footer>
-            EasyCashier SPA © 2018
+            &copy; 2018 Copyright EasyCashier
         </footer>
     </div>
 

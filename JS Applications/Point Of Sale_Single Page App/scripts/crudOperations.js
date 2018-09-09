@@ -17,13 +17,13 @@ function registerUser(ev) {
                         $('#password-register-check').val('');
                     }).catch(auth.handleAjaxError)
             } else {
-                auth.showError('Passwords do not match.')
+                auth.showError('Passwords do not match.');
             }
         } else {
-            auth.showError('A password should contain only english alphabet letters and digits.')
+            auth.showError('A password should contain only english alphabet letters and digits.');
         }
     } else {
-        auth.showError('A username should be at least 5 characters long and should contain only english alphabet letters.')
+        auth.showError('A username should be at least 5 characters long and should contain only english alphabet letters.');
     }
 }
 
@@ -44,12 +44,12 @@ function loginUser(ev) {
                     auth.showInfo('User login successful.');
                     $('#username-login').val('');
                     $('#password-login').val('');
-                }).catch(auth.handleAjaxError)
+                }).catch(auth.handleAjaxError);
         } else {
-            auth.showError('A password should contain only english alphabet letters and digits.')
+            auth.showError('A password should contain only english alphabet letters and digits.');
         }
     } else {
-        auth.showError('A username should be at least 5 characters long and should contain only english alphabet letters.')
+        auth.showError('A username should be at least 5 characters long and should contain only english alphabet letters.');
     }
 }
 
@@ -173,6 +173,7 @@ function checkoutReceipt(ev) {
                     .then(function (res) {
                         $('#create-receipt-view').hide();
                         displayActiveReceiptWithEntries(res);
+
                         $('#create-receipt-form input[name="receiptId"]').val('');
                         $('#create-receipt-form input[name="productCount"]').val('');
                         $('#create-receipt-form input[name="total"]').val('');

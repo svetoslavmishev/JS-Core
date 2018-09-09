@@ -20,7 +20,8 @@ a:hover {
 
 body {
     background: #bccfe0;
-    font-family: sans-serif;
+    font-family: Verdana;
+    line-height: 1.5;    
 }    
 
 #container {
@@ -34,6 +35,29 @@ footer {
 	text-align: center;
 }
 
-.welcome {
-    width: 360px;
+.welcome p {
+    width: 100%;
+    text-justify: auto;
+} 
+
+.welcome  img {
+    width: 100%;
+    padding: 15px;
+} 
+
+.sign {
+    text-align: center;
+}
+
+.services {
+    height: 160px;
+    width: 210px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.services h2 {
+    padding-bottom: 10px;
+    text-align: center;
 }

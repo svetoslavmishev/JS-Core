@@ -1,9 +1,9 @@
 header {
 	box-sizing: border-box;
-    position: relative;
+  position: relative;
 	background: #5b9bd5;
-	border: 2px solid #41719c;
 	padding: 10px;
+	box-shadow: 5px 10px 8px #888888;
 }
 
 #cashier {
@@ -24,7 +24,7 @@ header {
 }
 
 #nav {
-	float: right;
+	float: right;	
 }
 
 #nav ul {
@@ -32,7 +32,7 @@ header {
 }
 
 #nav ul li {
-	display: inline-block;
+	display: inline-block;	
 }
 
 #nav ul>li a {
@@ -40,12 +40,6 @@ header {
 	font-weight: bold;
 	padding: 5px;
 	margin: 5px;
-	border: 2px solid #41719c;
 	font-size: 1.25rem;
 	color: #fff;
-}
-
-#nav ul>li a.logout {
-	color: black;
-	background: #fff;
 }
